@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* FIX para evitar error */
 body {
   margin: 0;
 }

@@ -1,0 +1,39 @@
+{
+  "isabel": [],
+  "jordi": [
+    {
+      "id": 1777136131953,
+      "type": "nft",
+      "market": "Coleccion 1",
+      "submarket": "",
+      "name": "Zorn ",
+      "initial_value": 100.0,
+      "current_value": 100.0,
+      "start_date": "2026-04-25",
+      "expiry_date": "",
+      "free_float_pct": "",
+      "release_schedule": "",
+      "guarantee": "",
+      "contract": "",
+      "status": "open",
+      "notes": "",
+      "created_at": 1777136131.9539115
+    },
+    {
+      "id": 1777144279470,
+      "name": "Accion ",
+      "type": "physical",
+      "market": "Mercado local",
+      "submarket": "",
+      "initial_value": 100000.0,
+      "current_value": 2000.0,
+      "start_date": "2026-04-25",
+      "expiry_date": "",
+      "free_float_pct": "",
+      "guarantee": "",
+      "contract": "",
+      "status": "open",
+      "notes": ""
+    }
+  ]
+}

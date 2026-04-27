@@ -1,0 +1,10 @@
+[
+  {
+    "owner": "Jordi",
+    "asset": "IBEX",
+    "type": "PUT vendida",
+    "strike": "10000",
+    "premium": "600",
+    "expiry": "2026-05-23"
+  }
+]

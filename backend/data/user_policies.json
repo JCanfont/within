@@ -1,0 +1,13 @@
+{
+  "isabel": {
+    "max_ticket": "10000",
+    "drawdown": "25",
+    "excluded_assets": [
+      "nfts"
+    ]
+  },
+  "jordi": {
+    "max_ticket": "100000",
+    "drawdown": "25"
+  }
+}

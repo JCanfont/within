@@ -1,0 +1,7 @@
+{
+  "underlying": "IBEX35",
+  "put_strike": 13000,
+  "call_strike": 13500,
+  "put_premium": 120,
+  "call_premium": 100
+}

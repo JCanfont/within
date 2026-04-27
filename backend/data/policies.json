@@ -1,0 +1,11 @@
+{
+  "jordi": {
+    "max_ticket": "100000",
+    "drawdown": "25",
+    "max_exposure": "50000",
+    "excluded_assets": [
+      "nfl"
+    ],
+    "mode": "self"
+  }
+}

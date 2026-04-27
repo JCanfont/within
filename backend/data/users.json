@@ -1,0 +1,60 @@
+{
+  "jordi": {
+    "password": "1234",
+    "profile": {
+      "name": "Jordi",
+      "membership": "Premium",
+      "balance": "125,000\u20ac",
+      "ytd_profit": "+18,500\u20ac",
+      "open_operations": 12,
+      "is_admin": true
+    },
+    "modules": [
+      "crypto",
+      "arte",
+      "bme",
+      "compras",
+      "estrategias",
+      "wallet",
+      "memberships"
+    ]
+  },
+  "fernando": {
+    "password": "within123",
+    "profile": {
+      "name": "Fernando",
+      "membership": "Basic",
+      "balance": "35,000\u20ac",
+      "ytd_profit": "+3,200\u20ac",
+      "open_operations": 3,
+      "is_admin": false
+    },
+    "modules": [
+      "crypto",
+      "arte",
+      "bme",
+      "compras",
+      "estrategias",
+      "wallet",
+      "memberships"
+    ]
+  },
+  "isabel": {
+    "password": "Dineritos2025",
+    "profile": {
+      "name": "Isabel Gaseni",
+      "membership": "Premium",
+      "is_admin": false
+    },
+    "modules": [
+      "dashboard",
+      "bme",
+      "wallet",
+      "memberships",
+      "crypto",
+      "arte",
+      "compras",
+      "estrategias"
+    ]
+  }
+}

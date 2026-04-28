@@ -13,10 +13,7 @@ export default function AdminDashboard({ goTo, user, onLogout }) {
 
   return (
     <main className="admin-page">
-      <div className="admin-glow one"></div>
-      <div className="admin-glow two"></div>
-
-      <div className="admin-shell">
+       <div className="admin-shell">
         <header className="admin-topbar">
           <div className="admin-logo">
             WithinPivot Admin · {user?.name || "Admin"}

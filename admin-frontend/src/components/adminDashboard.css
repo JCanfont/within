@@ -1,0 +1,29 @@
+.admin-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0a0f2c, #020617);
+  color: white;
+  padding: 40px;
+}
+
+.admin-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.admin-topbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.admin-kpi-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.admin-kpi-card {
+  background: rgba(255,255,255,0.05);
+  padding: 20px;
+  border-radius: 12px;
+}

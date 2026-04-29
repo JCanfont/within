@@ -1,29 +1,97 @@
 .admin-page {
   min-height: 100vh;
-  background: linear-gradient(135deg, #0a0f2c, #020617);
   color: white;
-  padding: 40px;
+  font-family: Inter, system-ui, Arial;
+  position: relative;
+  overflow: hidden;
+
+  background:
+    radial-gradient(circle at 20% 20%, rgba(59,130,246,.4), transparent 30%),
+    radial-gradient(circle at 80% 10%, rgba(168,85,247,.35), transparent 30%),
+    linear-gradient(135deg, #020617, #0f172a, #020617);
 }
 
+/* 🔥 GLOW */
+.admin-page::before,
+.admin-page::after {
+  content: "";
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  filter: blur(120px);
+  opacity: 0.35;
+}
+
+.admin-page::before {
+  background: #3b82f6;
+  top: -150px;
+  left: -150px;
+}
+
+.admin-page::after {
+  background: #9333ea;
+  bottom: -150px;
+  right: -150px;
+}
+
+/* CONTENIDO */
 .admin-shell {
+  position: relative;
+  z-index: 2;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: auto;
 }
 
+/* 🔥 GLASS REAL */
+.admin-topbar,
+.admin-kpi-card,
+.admin-panel,
+.module-card {
+  background: rgba(255,255,255,0.06);
+  backdrop-filter: blur(25px);
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 20px;
+  box-shadow:
+    0 0 40px rgba(59,130,246,.2),
+    0 30px 80px rgba(0,0,0,.4);
+}
+
+/* HEADER */
 .admin-topbar {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 40px;
+  padding: 20px;
+  margin-bottom: 30px;
 }
 
+/* BOTONES */
+.admin-nav button {
+  background: linear-gradient(135deg, #3b82f6, #9333ea);
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 999px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.admin-nav button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(59,130,246,.4);
+}
+
+/* KPI */
 .admin-kpi-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4,1fr);
   gap: 20px;
 }
 
 .admin-kpi-card {
-  background: rgba(255,255,255,0.05);
   padding: 20px;
-  border-radius: 12px;
+}
+
+.admin-kpi-card strong {
+  font-size: 28px;
 }

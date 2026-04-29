@@ -1,3 +1,7 @@
+html {
+  font-size: 14px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5,7 +9,6 @@
 :root {
   --bg: #050612;
   --glass: rgba(255, 255, 255, 0.075);
-  --glass-strong: rgba(255, 255, 255, 0.14);
   --line: rgba(255, 255, 255, 0.14);
   --text-soft: rgba(255, 255, 255, 0.64);
   --violet: #8278ff;
@@ -138,15 +141,15 @@ body {
 .hero h2 {
   margin: 0 0 16px;
   max-width: 900px;
-  font-size: clamp(38px, 5.7vw, 70px);
-  line-height: 0.92;
-  letter-spacing: -0.08em;
+  font-size: clamp(34px, 5vw, 58px);
+  line-height: 0.96;
+  letter-spacing: -0.07em;
 }
 
 .hero p {
   max-width: 760px;
   color: var(--text-soft);
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.55;
 }
 
@@ -170,7 +173,7 @@ body {
 }
 
 .hero-panel strong {
-  font-size: 34px;
+  font-size: 32px;
   letter-spacing: -0.07em;
   margin: 8px 0;
 }
@@ -205,7 +208,7 @@ body {
 }
 
 .metrics strong {
-  font-size: 22px;
+  font-size: 21px;
   letter-spacing: -0.04em;
 }
 
@@ -246,7 +249,7 @@ body {
 
 .card h3 {
   margin: 0;
-  font-size: 23px;
+  font-size: 22px;
   letter-spacing: -0.05em;
 }
 
@@ -284,7 +287,7 @@ body {
 }
 
 .balance {
-  font-size: 50px;
+  font-size: 44px;
   font-weight: 900;
   margin: 24px 0 4px;
   letter-spacing: -0.08em;
